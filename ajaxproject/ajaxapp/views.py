@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Student
 from django.http import JsonResponse
-# Create your views here.
+# Create  views 
 def home(request):
     return render(request,'home.html')
 def add_item(request):
